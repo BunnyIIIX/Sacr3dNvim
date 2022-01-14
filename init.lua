@@ -1,5 +1,5 @@
 if vim.fn.has('nvim-0.6') == 0 then
-  error('Need NVIM 0.6 in order to run Cosmic!!')
+  error('Need NVIM 0.6 in order to run Sacr3d!!')
 end
 
 do
@@ -10,7 +10,7 @@ do
   end
 end
 
-local ok, err = pcall(require, 'cosmic')
+local ok, err = pcall(require, 'sacr3d')
 
 if not ok then
   error(('Error loading core...\n\n%s'):format(err))
